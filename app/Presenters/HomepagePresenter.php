@@ -27,8 +27,8 @@ final class HomepagePresenter extends Nette\Application\UI\Presenter
 
 	public function renderDefault(): void
 	{
-		$this->translator->translate('domain.message');
-		$prefixedTranslator = $this->translator->createPrefixedTranslator('domain');
-		$prefixedTranslator->translate('message');
+		// $this->translator->translate('domain.message');
+		// $prefixedTranslator = $this->translator->createPrefixedTranslator('domain');
+		// $prefixedTranslator->translate('message');
 	}
 }
